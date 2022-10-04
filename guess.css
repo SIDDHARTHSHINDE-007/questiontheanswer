@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main-section{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 238, 246, 0.527);
+    
+}
+.subsection{
+ box-shadow: 0px 0px 5px 0px;
+  height:50%;
+  width:60%;
+  background-color: rgba(0, 0, 255, 0.502);
+}
+.subsection p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subsection .guess-title{
+   margin-top: 3rem;
+   font-size: 3rem;
+   color: burlywood;
+   }
+   .outputtext{
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    color: rgba(176, 166, 166, 0.789);
+   }
+   .subsection input{
+    height: 10%;
+    width: 50%;
+    margin-left: 8rem;
+    border:none;
+    border-right: 1px solid rgb(12, 11, 12);
+    
+
+   }
+   .subsection button{
+    height: 10%;
+ background-color: burlywood;;
+ color:white;
+ border: none;
+ 
+
+   }
+  .subsection p,button{
+    margin-top: 1rem;
+  }
